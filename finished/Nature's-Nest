@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature's Nest</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <style>
+    #myCarousel{
+      height: 100;
+    }
+body{
+  background-image:linear-gradient(rgb(128, 255, 89),rgb(103, 103, 247));
+}
+.nav-item{
+  background-color: limegreen;
+}
+
+.feature-icon{
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+.icon-link{
+  color: rgb(1, 66, 1);
+}
+.container-sm{
+  width:30%;
+  height:30%; 
+}
+  </style>
+</head>
+
+<body>
+  <!-- <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Profile</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
+    </li>
+  </ul> -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="birds (1).png" height="50">Nature's Nest</a>
+      <button class="navbar-toggler" type="button" da>ta-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Booking
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">A Room</a></li>
+              <li><a class="dropdown-item" href="#">A Resort</a></li>
+              <li><a class="dropdown-item" href="#">A Restuarant</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- //hero -->
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Take a Vacation and Feel Relaxed!</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">"At Nature's Nest, escape the everyday with eco-friendly retreats that nourish your mind, body, and soul. Enjoy organic meals, sustainable comfort, and serene surroundings designed for ultimate relaxation. Rediscover peace and reconnect with nature at Nature’s Nest."</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Book Now!</button>
+        <button type="button" class="btn btn-success btn-lg px-4">Contact Us📞</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 40vh;">
+      <div class="container px-5">
+        <img src="nature-resort.webp" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+  <!-- //features  -->
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <img src="leaf.png" alt="leaf" height="50">
+      </div>
+      <h3 class="fs-2 text-body-emphasis">Organic Living Spaces:</h3>
+      <p>Each retreat is crafted with eco-friendly materials and furnished with organic linens, natural decor, and bamboo furnishings to create a truly sustainable and luxurious stay.</p>
+      <a href="#" class="icon-link">
+        Learn More
+        <img src="chevron-right.svg" alt="chevron-right">
+      </a>
+    </div>
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <img src="fresh (1).png" alt="fresh foods" height="50">
+      </div>
+      <h3 class="fs-2 text-body-emphasis">Farm-to-Table Dining:</h3>
+      <p>Enjoy wholesome, organic meals prepared with locally sourced ingredients that promote health and environmental harmony. Every dish celebrates the flavors of nature.</p>
+      <a href="#" class="icon-link">
+        Learn More
+        <img src="chevron-right.svg" alt="chevron-right">
+      </a>
+    </div>
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <img src="path.png" alt="nature" height="50">
+      </div>
+      <h3 class="fs-2 text-body-emphasis">Immersive Nature Experiences:</h3>
+      <p>From guided nature walks to stargazing nights, Nature’s Nest offers unique experiences designed to reconnect you with the outdoors, fostering relaxation and a deeper bond with nature.</p>
+      <a href="#" class="icon-link">
+        Learn More
+        <img src="chevron-right.svg" alt="chevron-right">
+      </a>
+    </div>
+  </div>
+  <!-- // carousel -->
+   <div class="container-sm">
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="resort 1.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="resort 2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="resort 3.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+</body>
+
+</html>
